@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHRUV VADHIYA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d731503823.js" crossorigin="anonymous"></script>
+</head>
+<div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times"  onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" style="display: none;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p></p>
+            <h1>Hi, I'm <br><span>Dhruv Vadhiya</span><br>From India</h1>
+            <h1>Welcome to my<br> Portfolio Website</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ----about---- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <br>
+                    <br> 
+                    <p>Hello, I'm Dhruv Vadhiya, a student specializing in Computer Science with a focus on artificial intelligence and machine learning. While I'm passionate about these technical pursuits, I have a diverse range of interests that define who I am. I have a deep love for basketball and thrive in leadership roles. I've already achieved quite a bit in my young career. I started a clothing brand called "Rippoff" and successfully sold it, demonstrating my entrepreneurial spirit. In the world of technology, I've developed and sold an ML model for PDF summarization and even created a digital twin software on my own. My passion for AI and ML has also led to a published paper on a cutting-edge ML model for web scraping and predictive travel routes. As for the future, I'm keeping my options open and exploring various opportunities to expand my knowledge and skills. What motivates me is the desire to achieve financial independence and make money work for me. I'm a firm believer in self-motivation, and I'm determined to succeed in whatever I set my mind to.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills/Certifications</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience/Internships</p>
+                        <p class="tab-links"onclick="opentab('education')">Education and GPA</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Certification</span><br>Machine Learning Specialization by DeepLearning.AI, Google Certifies Digital Marketing Analyst, DeepLearning Analysis by Stanford, CINTEL Certified APP-A-THON Runner up</li>
+                            <li><span>Paper Presentation</span><br>Paper being published via CINTEL on web scrapping and travel route analysis via AI model</li>
+                            <li><span>Software Development</span><br>TOMEX Digital Twin on its way for deployment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Experiance</span><br>Python Development, Software Development via Electron/Unity, Perferable Leadership rolls and Management</li>
+                            <li><span>Internship</span><br>ML and Bluetooth Communications 4 Month Internship at Aliste Technology</li>
+                            <li><span>Achivements</span><br>Ex-Owner of RipOff, Sold DL tuned models to Binixry LTD, Member of Vikas Astronomy and Research team</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2007-2021</span><br>Sattva Vikas School</li>
+                            <li><span>2023-current</span><br>SRM University, First semester GPA-10, Second Semester GPA-10</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- -----services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skillsets</h1>
+        <div class="services-list">
+            <div class="service-item" id="leadership">
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <h2>Leadership</h2>
+                <p class="description">As a leader, I've successfully steered projects and businesses, from launching and selling a clothing brand to developing machine learning models. My leadership style is centered on clear vision, collaboration, and fostering innovation. Moving forward, I'm committed to expanding my leadership impact by embracing new challenges and mentoring others to achieve their best</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service-item" id="software-design">
+                <i class="fa-brands fa-uncharted"></i>
+                <h2>Software Design</h2>
+                <p class="description">As a software developer, I'm all about coding, innovation, and staying at the cutting edge of technology. I've built apps, web solutions, and even a unique health app. My commitment to constant learning drives me to shape a better digital world</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service-item" id="python-developer">
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Developer</h2>
+                <p class="description"> As a Python developer, I'm all about coding and solving problems. Python is my preferred tool, and I use it for a wide range of applications. I'm passionate about writing efficient code and enjoy taking on new Python challenges.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service-item" id="artificial-intelligence">
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Artificial Intelligence</h2>
+                <p class="description">As an AI enthusiast, I'm dedicated to the world of artificial intelligence. I work with cutting-edge technologies to develop intelligent solutions that can solve complex problems. From machine learning to natural language processing, I'm constantly exploring and pushing the boundaries of AI to make our digital world smarter and more efficient</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png.png">
+                <div class="layer">
+                    <h3>Rip Off</h3>
+                    <p>A "Made in India" clothing brand targeting the the street essenct of moden India </p>
+                    <a href="https://ripoff.co.in" target="_blank"><i class="fas fa-external-link-alt"></i></a>    
+                </div>
+                
+                
+            </div>
+            <div class="work">
+                <img src="work-2.png.png">
+                <div class="layer">
+                    <h3>PDF Summerisation</h3>
+                    <p>An app which will help define and summerise long pdf into interactive key points</p>
+                    <a href="https://www.pdfgpt.io/plan" target="_blank"><i class="fas fa-external-link-alt"></i></a>    
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png.png">
+                <div class="layer">
+                    <h3>TOMEX App</h3>
+                    <p>A software which will have you create a digital simulation of a real-world aspect with just some code, blueprints, etc</p>
+                    <a href="under_construction.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---conatct------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> dhruv_vadhiya@yahoo.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 9924141118</p>
+                <div class="social-icons">
+                    <a href="https://github.com/dv7453" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/thatgujjumf/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dhruv-vadhiya-125088215/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @DHRUVVADHIYA. Made for placement and learning purpose</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbyXPar7k8MXJt_ZhPtzUSjgRnQW19PB-NKg2jdroIWWzQcAkBuD2DWOBw7oXWuzEzlq/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
